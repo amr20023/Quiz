@@ -1,0 +1,58 @@
+#quiz,
+#finish,
+#Correct,
+#inCorrect {
+    display: none;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#particles-js
+{
+    background-image: url(../image/pexels-tara-winstead-8386422.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.layer
+{   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+}
+.setting,.quiz,.finish
+{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* //background-image: linear-gradient(to left, #aa2ff2, #9e45f7, #9354fb, #8861fd, #7e6cfe); */
+    background-image: url(../images/Wave-100s-1366px\ \(2\).svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+}
+
+.close {
+    cursor: pointer;
+}
+.bg-spec {
+    background-color: #653383
+}
+
+button {
+    cursor: pointer;
+}
+
+.alert {
+    display: none;
+}
+
